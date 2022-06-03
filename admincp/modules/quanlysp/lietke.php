@@ -20,14 +20,14 @@
                 <th>DANH MỤC SẢN PHẨM</th>
             </tr>
             <tr>
-                <th style="width: 15px;text-align: center;">ID</th>
+                <th>ID</th>
                 <th>Tên sản phảm</th>
                 <th>Hình ảnh </th>
                 <th>Giá sản phẩm</th>
                 <th>Số lượng</th>
                 <th>Danh mục</th>
                 <th>Mã sản phẩm</th>
-                <th>Tóm tăt</th>
+                <!-- <th>Tóm tăt</th> -->
                 <th>Trạng thái</th>
                 <th>Quản lý</th>
             </tr>
@@ -38,8 +38,8 @@
             
             ?>
             <tr>
-                <td style="width: 15px;height:150px; text-align: center;"><?php echo $i ?></td>
-                <td style="display:block;width:10px;height:150px; text-align: center;">
+                <td ><?php echo $i ?></td>
+                <td >
                                     <?php echo $row['tensanpham'] ?>   
                 </td>
                 
@@ -53,7 +53,7 @@
                 <td><?php echo $row['soluong'] ?>      </td>
                 <td><?php echo $row['tendanhmuc'] ?>      </td>
                 <td><?php echo $row['masanpham'] ?>    </td>
-                <td style="display:block; width:150px;text-align: center;"><?php echo $row['tomtat'] ?>  </td>
+                <!-- <td style="display:block; width:150px;text-align: center;"><?php echo $row['tomtat'] ?>  </td> -->
                 <td><?php if($row['trangthai']==1){
                         echo "Mới";
                 }else{

@@ -6,9 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style_admincp.css">
+    <style>
+        .button{
+            
+            width: 100px;
+            height: 50px;
+            border-radius: 4px;
+            border:2px solid black;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
 </head>
 <body>
-    <div class="clear"></div>
+    <div class="clear">
+       
+    </div>
     <div class="main">
         <?php 
                         
@@ -20,7 +34,13 @@
                             $query='';
                         }
                         if ($bientam=='quanlydanhmucsanpham' && $query=='them'){
-                            include("modules/quanlydanhmucsp/them.php");
+                            
+        ?>
+        <button class="button">
+            <a href="modules/quanlydanhmucsp/them.php">Thêm danh mục</a>
+        </button>
+        <?php
+                            // include("modules/quanlydanhmucsp/them.php");
                             include("modules/quanlydanhmucsp/lietke.php");
 
                         }elseif($bientam=='quanlydanhmucsanpham' && $query=='sua'){
@@ -30,7 +50,12 @@
                             include("modules/quanlydoanhso/thongke.php");
 
                         }elseif($bientam=='quanlysanpham' && $query=='them'){
-                            include("modules/quanlysp/them.php");
+        ?>
+        <button class="button">
+            <a href="modules/quanlysp/them.php">Thêm sản phẩm</a>
+        </button>
+            <?php
+                            // include("modules/quanlysp/them.php");
                             include("modules/quanlysp/lietke.php");
 
                         }elseif($bientam=='quanlysanpham' && $query=='sua'){
