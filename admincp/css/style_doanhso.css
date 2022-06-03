@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.thongke{
+    width: 100%;
+    border: 4px;
+    background-color: gainsboro;
+}
+.doanhthu{
+    width: 30%;
+    height: 150px;
+    border-radius: 4px;
+    float: left;
+    background-color: aqua;
+}
+.vonhang{
+    width: 30%;
+    height: 150px;
+    border-radius: 4px;
+    float: right;
+    background-color: blue;
+}
+.khachhang{
+    width: 30%;
+    height: 150px;
+    background-color: bisque;
+    float: right;
+}
