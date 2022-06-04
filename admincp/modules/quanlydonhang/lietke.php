@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lietke</title>
     <link rel="stylesheet" href="css/style_admincp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
     <div class="table-wrapper">
@@ -24,7 +25,7 @@
                 <td>Hình thức thanh toán</td>
                 <td>Điện thoại</td>
                 <td>Tinh Trạng </td>
-                <td>Ngày đặt</td>
+                <!-- <td>Ngày đặt</td> -->
                 <td colspan="2">Quản lý </td>
             </tr>
             <?php
@@ -49,10 +50,10 @@
                 }
                 ?>
                 </td>
-                <td><?php echo $row['cart_date'] ?></td>
+                <!-- <td><?php echo $row['cart_date'] ?></td> -->
                 <td>
                     <a href="index.php?action=quanlydonhang&query=xemdonhang&code=<?php echo $row['code_cart']?>">Xem đơn hàng</a>
-                    <th><a href="modules/quanlydonhang/xuly.php?iddonhang=<?php echo $row['code_cart']?>">Xóa</a></th>
+                    <th><a href="modules/quanlydonhang/xuly.php?iddonhang=<?php echo $row['code_cart']?>"><i class="fa fa-trash" aria-hidden="true"></i></a></th>
                 </td>
             </tr>
             

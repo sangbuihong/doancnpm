@@ -13,9 +13,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style_admincp.css">
     <title>AdminCp</title>
+    <style>
+        
+    </style>
 </head>
 <body style="background-color: #e9ecef;">
-    <h3 class="admincp_tile">Welcome to Admin</h3>
+    <div class="fon">
+        <h3 class="admincp_tile">Welcome to Admin</h3>
+    </div>
+    
     <div class="wrapper">
         <?php
             include("config/connect.php");
@@ -29,11 +35,13 @@
             <div id = right>
                 <div id = index-header><?php include("modules/header.php"); ?></div>
                 <div id = index-main><?php include("modules/main.php"); ?></div>
-                <div id = index-footer><?php include("modules/footer.php");?></div>
-                
+                <hr>
+                <div id = index-footer><?php include("modules/footer.php");?></div>  
             </div>
+            
         </div>
     
     </div>
+    
 </body>
 </html>

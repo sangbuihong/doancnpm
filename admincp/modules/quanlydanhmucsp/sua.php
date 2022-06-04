@@ -31,7 +31,7 @@
         </tr>
         <tr>
 
-            <td colspan="2"><input type="submit" value="Sửa sản phẩm" name="suadanhmuc"></td>
+            <td colspan="2"><input type="submit" value="Sửa danh mục" name="suadanhmuc"></td>
         </tr>
         <?php
             }

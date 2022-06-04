@@ -14,14 +14,8 @@
         <ul >
             <li><table>
                 <tr>
-                    <td><spam class="fas fa-home "> </spam></td>
-                    <td><a href="">Trang chủ</a></td>
-                </tr>
-            </table></li>
-            <li><table>
-                <tr>
                     <td><i class="fab fa-buffer"></i></td>
-                    <td><a href="index.php?action=quanlydoanhso&query=thongke">Doanh số</a></td>
+                    <td><a href="index.php?action=quanlydoanhso&query=thongke">Trang chủ</a></td>
                 </tr>
             </table></li>
             <li><table>
