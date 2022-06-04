@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>lietke</title>
         <link rel="stylesheet" href="css/style_admincp.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
     <body>
         <div class="table-wrapper">
@@ -44,10 +45,10 @@
                     <td> <?php echo $row ['sodienthoai']?></td>
                     <td style="width:100px;"> <?php echo $row ['diachi']?></td>
                     <td>
-                        <button class="button" style="vertical-align:middle"><span><a style="text-decoration: none" href="?action=quanlynguoidung&query=sua&idnguoidung=<?php echo $row['id_khachhang'] ?>"> Sửa </a></span></button>
+                        <a style="text-decoration: none" href="?action=quanlynguoidung&query=sua&idnguoidung=<?php echo $row['id_khachhang'] ?>"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
                     </td>
                     <td>
-                        <button class="button" style="vertical-align:middle"><span><a style="text-decoration: none" href="modules/quanlynguoidung/xuly.php?idnguoidung=<?php echo $row['id_khachhang']?>">Xóa</a></span> </button>
+                        <a style="text-decoration: none" href="modules/quanlynguoidung/xuly.php?idnguoidung=<?php echo $row['id_khachhang']?>"><i class="fa fa-trash" aria-hidden="true"></i></a>
                     </td>
                     <td><?php if($row['chucvu']==1){
                         echo "Bán hàng";

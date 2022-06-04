@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lietke</title>
     <link rel="stylesheet" href="css/style_admincp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="table-wrapper">
@@ -22,7 +23,7 @@
                 <th>ID</th>
                 <th>Tên danh mục</th>
                 <th>Thứ tự</th>
-                <th colspan="2">Quản lý</th>
+                <th>Quản lý</th>
             </tr>
             <?php
             $i=0;
@@ -35,10 +36,9 @@
                 <td><?php echo $row['tendanhmuc'] ?></td>
                 <td><?php echo $row['thutu']?></td>
                 <td>
-                    <button class="button" style="vertical-align:middle"><span><a style="text-decoration: none" href="?action=quanlydanhmucsanpham&query=sua&iddanhmuc=<?php echo $row['id_danhmuc']?>">Sửa</a></span></button>
-                </td>
-                <td>
-                    <button class="button" style="vertical-align:middle"><span><a style="text-decoration: none" href="modules/quanlydanhmucsp/xuly.php?iddanhmuc=<?php echo $row['id_danhmuc']?>">Xóa</a></span></button> 
+                    <a style="text-decoration: none" href="?action=quanlydanhmucsanpham&query=sua&iddanhmuc=<?php echo $row['id_danhmuc']?>"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
+                    ||
+                    <a style="text-decoration: none" href="modules/quanlydanhmucsp/xuly.php?iddanhmuc=<?php echo $row['id_danhmuc']?>"><i class="fa fa-trash" aria-hidden="true"></i></a>
                 </td>
             </tr>
 

@@ -12,13 +12,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lietke</title>
     <link rel="stylesheet" href="css/style_admincp.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
     <div class="table-wrapper">
         <table class="fl-table" > 
             <tr>
-                <th>DANH MỤC SẢN PHẨM</th>
+                <th colspan="9">DANH MỤC SẢN PHẨM</th>
             </tr>
             <tr>
                 <th>ID</th>
@@ -62,9 +62,9 @@
                 }?>
                 </td>
                 <td>
-                    <i class="fa fa-trash-can"><a href="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham']?>"></a>|</i>
-                    
-                    <a href="?action=quanlysanpham&query=sua&idsanpham=<?php echo $row['id_sanpham']?>">Sửa</a>
+                    <a href="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham']?>"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    ||
+                    <a href="?action=quanlysanpham&query=sua&idsanpham=<?php echo $row['id_sanpham']?>"><i class="fa fa-pencil-square" aria-hidden="true"></i></a>
                 </td>
             </tr>
 

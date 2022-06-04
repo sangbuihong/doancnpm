@@ -8,7 +8,7 @@
  </head>
  <body>
      <div class="table-wrapper">
-                <p>Thêm sản phẩm</p>
+                <b><p>THÊM SẢN PHẨM</p></b>
         <table class="fl-table">
         <form method="POST" action="modules/quanlysp/xuly.php" enctype="multipart/form-data">
             <tr>

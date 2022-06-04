@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>thongke
+    </title>
     <link rel="stylesheet" href="style_doanhso.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/font-awesome.min.css">
 </head>
@@ -13,14 +14,14 @@
         <div class="all-1">
             <div class="all-1-1">
                 <a href="#"><b>
-                    Tổng lãi
+                    Doanh số
                 </b></a>
             </div>
         </div>
         <div class="all-2">
             <div class="all-1-1">
                 <a href="#"><b>
-                    Tổng lãi
+                    Số vốn
                 </b></a>
             </div>
         </div>

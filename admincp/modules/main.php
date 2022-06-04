@@ -34,12 +34,8 @@
                         }
                         if ($bientam=='quanlydanhmucsanpham' && $query=='them'){
                             
-        ?>
-        <button class="button">
-            <a href="modules/quanlydanhmucsp/them.php">Thêm danh mục</a>
-        </button>
-        <?php
-                            // include("modules/quanlydanhmucsp/them.php");
+        
+                            include("modules/quanlydanhmucsp/them.php");
                             include("modules/quanlydanhmucsp/lietke.php");
 
                         }elseif($bientam=='quanlydanhmucsanpham' && $query=='sua'){
@@ -49,12 +45,8 @@
                             include("modules/quanlydoanhso/thongke.php");
 
                         }elseif($bientam=='quanlysanpham' && $query=='them'){
-        ?>
-        <button class="button">
-            <a href="modules/quanlysp/them.php">Thêm sản phẩm</a>
-        </button>
-            <?php
-                            // include("modules/quanlysp/them.php");
+        
+                            include("modules/quanlysp/them.php");
                             include("modules/quanlysp/lietke.php");
 
                         }elseif($bientam=='quanlysanpham' && $query=='sua'){
