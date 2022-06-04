@@ -8,6 +8,9 @@
      <link rel="stylesheet" href="css/style_admincp.css">
  </head>
  <body>
+     <?php
+     include("modules/header.php");
+    ?>
      <div id = "them">
         <div class="table-wrapper"> 
         <table class="fl-table" >

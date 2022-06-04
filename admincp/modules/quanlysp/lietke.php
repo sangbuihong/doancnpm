@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lietke</title>
     <link rel="stylesheet" href="css/style_admincp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body>
     <div class="table-wrapper">
@@ -61,7 +62,8 @@
                 }?>
                 </td>
                 <td>
-                    <a href="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham']?>">Xóa</a>|
+                    <i class="fa fa-trash-can"><a href="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham']?>"></a>|</i>
+                    
                     <a href="?action=quanlysanpham&query=sua&idsanpham=<?php echo $row['id_sanpham']?>">Sửa</a>
                 </td>
             </tr>
