@@ -23,6 +23,9 @@
         .lh a{
             color: black;
         }
+        .lh a i:hover{
+            color:chartreuse;
+        }
     </style>
 
 </head>
@@ -34,9 +37,9 @@
             <b><p>Nhóm 15 môn công nghệ phần mềm</p></b>
         </div>
         <div class="lh">
-            <p><a href="#"><i class="fa fa-facebook-official" aria-hidden="true">   Facebook</i></a></p>
-            <p><a href="#"><i class="fa fa-envelope" aria-hidden="true">   Gmail</i></a></p>
-            <p><a href="#"><i class="fa fa-graduation-cap" aria-hidden="true">   Trường Đại Học Vinh</i></a></p>
+            <p><a href="https://www.facebook.com/DaiHocVinh/"><i class="fa fa-facebook-official" aria-hidden="true">   Facebook</i></a></p>
+            <p><a href="https://mail.google.com/"><i class="fa fa-envelope" aria-hidden="true">   Gmail</i></a></p>
+            <p><a href="https://vinhuni.edu.vn/trang-chu.html"><i class="fa fa-graduation-cap" aria-hidden="true">   Trường Đại Học Vinh</i></a></p>
         </div>
     </div>
     

@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
+    <div>
+        <hr>    
+        <p><b> THỐNG KÊ</b></p>
+        <hr>
+    </div>
     <div class="all">
         <div class="all-1">
             <div class="all-1-1">
@@ -17,27 +22,36 @@
                 </b></a>
             </div>
             <div class="all-1-2">
-                <i class="fa fa-bar-chart fa-2x"  aria-hidden="true"></i>
+                <i class="fa fa-usd fa-2x"  aria-hidden="true"></i>
+            </div>
+            <div>
+                0   
             </div>
         </div>
         <div class="all-2">
             <div class="all-1-1">
                 <a href="#"><b>
-                    Số vốn
+                    Số hàng hóa
                 </b></a>
             </div>
             <div class="all-1-2">
-                <i class="fa fa-usd fa-2x"  aria-hidden="true"></i>
+                <i class="fa fa-bar-chart fa-2x"  aria-hidden="true"></i>
+            </div>
+            <div>
+                0
             </div>
         </div>
         <div class="all-3">
             <div class="all-1-1">
                 <a href="#"><b>
-                    Tổng lãi
+                    Khách hàng 
                 </b></a>
             </div>
             <div class="all-1-2">
-                <i class="fa fa-arrow-circle-up fa-2x"  aria-hidden="true"></i>
+                <i class="fa fa-users fa-2x"  aria-hidden="true"></i>
+            </div>
+            <div>
+                0
             </div>
         </div>
     </div>

@@ -71,7 +71,7 @@
                             include("../login.php");
                         }
                         else{
-                            include("modules/dashboard.php");
+                            include("modules/quanlydoanhso/thongke.php");
                         }
         ?>
     </div>
