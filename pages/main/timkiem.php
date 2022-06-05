@@ -16,7 +16,7 @@
 							<img src="admincp/modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>">
 							<p class="title_product">Tên sản phẩm : <?php echo $row['tensanpham'] ?></p>
 							<p class="price_product">Giá : <?php echo number_format($row['giasanpham'],0,',','.').'vnđ' ?></p>
-							<p style="text-align: center;color:#d1d1d1"><?php echo $row['tendanhmuc'] ?></p>
+							<p style="text-align: center;color:#d1d1d1;"><?php echo $row['tendanhmuc'] ?></p>
 						</a>
 					</li>
 					<?php

@@ -5,7 +5,18 @@
    
    
 ?>
-
+<style>
+    ul li img{
+        border-radius: 5px;
+        border: 0px solid black;
+    }
+    ul li #tdm{
+        border-radius: 5px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: white;
+    }
+</style>
 <ul class="product_list">
     <?php
         while ($row=mysqli_fetch_array($query_show_new)){
@@ -15,7 +26,7 @@
                 <img src="admincp/modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>">
                 <p class="title_product"> <?php echo $row['tensanpham'] ?></p>
                 <p class="price_product">Giá: <?php echo number_format($row['giasanpham'],0,',','.').'vnd' ?></p>
-                <p><?php echo $row['tendanhmuc']?></p>
+                <p id="tdm"><?php echo $row['tendanhmuc']?></p>
             </a>
 
         </li>

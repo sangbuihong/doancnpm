@@ -7,6 +7,7 @@
 .hinhanh_sanpham{
    
     width: 30%;
+    align-items: center;
 }
 .hinhanh_sanpham img{
     width: 80%;

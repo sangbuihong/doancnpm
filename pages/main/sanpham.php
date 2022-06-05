@@ -14,7 +14,7 @@
             <p>Mã :<?php echo $row_chitiet['masanpham'] ?></p>
             <p>Giá :<?php echo number_format($row_chitiet['giasanpham'],0,',','.').'vnd' ?></p>
             <p>Số lượng:<?php echo $row_chitiet['soluong'] ?></p>
-            <p>Danh mục :<?php echo $row_chitiet['tendanhmuc'] ?></p>
+            <p id="dm">Danh mục :<?php echo $row_chitiet['tendanhmuc'] ?></p>
             <p><input class="themgiohang" type="submit" name="themgiohang" value="Thêm Giỏ Hàng"></p>
         </div>
     </form>

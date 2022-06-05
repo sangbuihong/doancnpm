@@ -15,7 +15,18 @@
    
    
 ?>
-
+<style>
+	 ul li img{
+        border-radius: 5px;
+        border: 0px solid black;
+    }
+    ul li #dm{
+        border-radius: 5px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: white;
+    }
+</style>
 
 
 
@@ -29,7 +40,7 @@
                 <img src="admincp/modules/quanlysp/uploads/<?php echo $row['hinhanh'] ?>">
                 <p class="title_product"> <?php echo $row['tensanpham'] ?></p>
                 <p class="price_product">Giá: <?php echo number_format($row['giasanpham'],0,',','.').'vnd' ?></p>
-                <p><?php echo $row['tendanhmuc']?></p>
+                <p id="dm"><?php echo $row['tendanhmuc']?></p>
             </a>
 
         </li>
